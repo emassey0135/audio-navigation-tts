@@ -21,7 +21,7 @@ objc2-avf-audio = { version = "0.3.0", default-features = false, features = ["AV
 
 [target.'cfg(windows)'.dependencies]
 sapi-lite = "0.1.1"
-windows = { version = "0.28", features = ["Win32_System_Com"] }
+windows = { version = "0.32", features = ["Win32_System_Com"] }
 
 [lib]
 crate-type = ["cdylib", "lib"]
